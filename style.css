@@ -1,0 +1,63 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  line-height: 20%;
+}
+.Contenitore {
+  width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: solid black;
+  border-radius: 2%;
+}
+
+nav {
+  background-color: #00ff00;
+}
+
+header, nav {
+  text-align: center;
+}
+
+header,nav, main {
+  margin: 50px;
+}
+h1 {
+  color: #00ff00;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.Via:before {
+  content: "\21A6";
+}
+
+h2, h3 {
+  color: white;
+}
+
+.Prima-carica {
+  width: 48%;
+  height: 18px;
+  background-color: #ffa500;
+  border-radius: 2%;
+  display: inline-block;
+}
+
+.Seconda-carica {
+  width: 65%;
+  height: 18px;
+  background-color: #00ff00;
+  border-radius: 2%;
+  display: inline-block;
+}
+
+.Terza-carica {
+  width: 22%;
+  height: 18px;
+  background-color: #e84e43;
+  border-radius: 2%;
+  display: inline-block;
+}
